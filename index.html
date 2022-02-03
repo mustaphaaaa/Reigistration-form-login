@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive login </title>
+</head>
+<body>
+    <div id="container" class="container">
+        <div class="row">
+            <!--Sign Up-->
+            <div class="col">
+                <div class="form-wrapper align-items-center flex-col">
+                    <div class="form sign-up">
+                        <div class="input-group">
+                            <i class='bx bxs-user'></i>
+                            <input type="text"  placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bx-mail-send'></i>
+                            <input type="email"  placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="passeword">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="confirm passeword">
+                        </div>
+                        <button>Sign up</button>
+                        <p>
+                           
+                        </p>
+                        <p>
+                            <span>
+                                Already have an account?
+                            </span>
+                            <b onclick="toggle()">
+                                Sign in here
+                            </b>
+                        </p>
+                    </div>
+                </div>
+                <div class="form-wrapper"> 
+                    <div class=" social-list align-items-center sign-up">
+                    <div class="align-items-center facebook-bg"><i class='bx bxl-facebook'></i></div>
+                    <div class="align-items-center google-bg"><i class='bx bxl-google' ></i></div>
+                    <div class="align-items-center instagram-bg"><i class='bx bxl-instagram'></i></div>
+                    <div class="align-items-center twitter-bg"><i class='bx bxl-twitter'></i></div>
+                </div>
+    
+                </div>
+
+            </div>
+            <div class="col align-items-center flex-col">
+            <div class="form-wrapper align-items-center">
+                <div class="form sign-in">
+                    <div class="input-group">
+                        <i class='bx bxs-user'></i>
+                        <input type="text"  placeholder="Username">
+                    </div>
+                   
+                    <div class="input-group">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" placeholder="passeword">
+                    </div>
+                   
+                    <button>Sign in</button>
+                    <p>
+                       
+                    </p>
+                    <p>
+                        <span>
+                           don't have an account
+                        </span>
+                        <b onclick="toggle()">
+                            Sign up here
+                        </b>
+                    </p>
+                </div>
+            </div>
+            <div class="form-wrapper"> 
+                <div class=" social-list align-items-center sign-in">
+                <div class="align-items-center facebook-bg"><i class='bx bxl-facebook'></i></div>
+                <div class="align-items-center google-bg"><i class='bx bxl-google' ></i></div>
+                <div class="align-items-center instagram-bg"><i class='bx bxl-instagram'></i></div>
+                <div class="align-items-center twitter-bg"><i class='bx bxl-twitter'></i></div>
+            </div>
+
+            </div></div>
+           
+        </div>
+        
+    </div>
+    <sript src="index.js"></sript>
+</body>
+</html>
